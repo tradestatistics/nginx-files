@@ -1,6 +1,6 @@
 server {
     server_name docs.tradestatistics.io www.docs.tradestatistics.io;
-    root /www/tradestatistics/docs;
+    root /tradestatistics/docs;
     index index.html;
     listen 443 ssl; # managed by Certbot
     ssl_certificate /etc/letsencrypt/live/docs.tradestatistics.io/fullchain.pem; # managed by Certbot
