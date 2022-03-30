@@ -9,7 +9,6 @@ server {
       proxy_redirect http://localhost:3838/ https://$host/;
       proxy_http_version 1.1;
       proxy_set_header Upgrade $http_upgrade;
-      proxy_set_header Connection $connection_upgrade;
       proxy_read_timeout 20d;
     }
 }
