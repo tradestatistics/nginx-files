@@ -1,5 +1,5 @@
 server {
-    server_name shiny.tradestatistics.io www.shiny.tradestatistics.io;
+    server_name dashboard.tradestatistics.io www.dashboard.tradestatistics.io;
 
     access_log /var/log/nginx/shiny.access.log;
     error_log /var/log/nginx/shiny.error.log;
